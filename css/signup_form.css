@@ -1,0 +1,81 @@
+/*［bodyの書式］文字色:濃いグレー、文字サイズ:16px、書体:游ゴシック体、背景色:ベージュ*/
+body {
+    /*テキストのデフォルトの書式*/
+    color: #333;
+    font-size: 16px;
+    background-color: #fef4f4;
+}
+
+/*［ID:wrapperの書式］幅:980px、中央配置、内側左右余白:20px、背景色:白*/
+#wrapper {
+    background-color: #fef4f4;
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+/*［headerの書式］下余白:20px*/
+header {
+    padding-bottom: 100px;
+}
+
+header h1 {
+    background-color: #559966;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+/*［mainの書式］下余白:30px*/
+main {
+    padding-bottom: 80px;
+}
+
+/*［footerの書式］背景色:黒、文字色:白、中央揃え、高さ:50px*/
+footer {
+    background-color: #559966;
+    color: #fff;
+    /*  text-align: center;*/
+    /*height: 50px;*/
+    padding-top: 17px;
+    padding-bottom: 17px;
+    /*    position: relative;*/
+    /*    position relativeだろうがfixedだろうが、static以外だったら基準になる*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p.copyright {
+    width: 980px;
+    margin: 0 auto;
+    text-align: right;
+}
+footer p.pagetop {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+
+/*form*/
+body .sign_up {
+   text-align: center;
+}
+
+body form .button {
+
+    border-radius: 2rem;
+    border: 1px solid #666;
+    background-color: #559966;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+
+}
+
